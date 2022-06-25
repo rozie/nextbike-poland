@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<title>Rowery Nextbike {{name}}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name='robots' content='index, follow, noarchive'/>
+<meta name="Description" content="Ilość rowerów miejskich Nextbike w mieście {{name}}"/>
+<meta name="ICBM" content="{{lat}}, {{lng}}"/>
+<meta name="geo.position" content="{{lat}};{{lng}}"/>
+<meta name="geo.region" content="{{reg}}"/>
+<meta name='keywords' content='{{tags|join(', ') }}'/>
+<meta name='content-language' content='pl'/>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+body {margin: 5% auto; background: #f7f7f7; color: #444444; font-size: 16px; line-height: 1.9; max-width: 73%;}
+.green {color: green}
+.orange {color: orange}
+.red {color: red}
+</style>
+</head><body>
+<h1>Dostępność rowerów Nextbike {{name}}</h1>
+<p><b>nazwa stacji: ilość</b><br/>
+{% for station in stations|sort %}
+  {%- if stations[station]|int == 0 -%}
+    {{station}} <b class="red"> {{stations[station]}}</b><br/>
+  {%- elif stations[station]|int >=5 -%}
+    {{station}} <b class="green"> {{stations[station]}}</b><br/>
+  {%- else -%}
+    {{station}} <b class="orange"> {{stations[station]}}</b><br/>
+  {%- endif -%}
+{%- endfor -%}
+
+</p><p>Ostatnia aktualizacja: {{date}}</p>
+<p>Celem strony jest dostarczanie w lekkiej i czytelnej na wszystkich urządzeniach formie aktualnej ilości rowerów miejskich dostępnych na stacjach Nextbike w mieście {{name}}. Aktualizacja danych odbywa się co minutę na podstawie danych udostępnianych publicznie przez operatora stacji, firmę Nextbike. Podawana jest nazwa stacji oraz stan (ilość) rowerów.</p>
+<p><a href="https://zakr.es/blog/2013/06/nextbike-monitorowany/">O projekcie</a><br/>
+<a href="https://zakr.es/nextbike/">Rowery Nextbike w innych miastach Polski</a></p>
+</body></html>

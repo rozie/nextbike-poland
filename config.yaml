@@ -1,0 +1,231 @@
+cities:
+  431:
+    filename:   "kalisz"
+    geo.region: "PL"
+    name:       "Kalisz"
+    tags:       ["rower", "kalisz", "rower kaliski", "rower miejski", "kaliski rower miejski", "nextbike"]
+  423:
+    filename:   "siedlce"
+    geo.region: "PL"
+    name:       "Siedlce"
+    tags:       ["rower", "rowery", "nextbike", "siedlce", "siedlecki rower miejski"]
+  411:
+    filename:   "pszczyna"
+    geo.region: "PL"
+    name:       "Pszczyna"
+    tags:       ["rower", "nextbike", "pszczyna"]
+  412:
+    filename:   "zgierz"
+    geo.region: "PL"
+    name:       "Zgierz"
+    tags:       ["rower", "zgierz", "nextbike", "zgierski rower miejski"]
+  413:
+    filename:   "tychy"
+    geo.region: "PL"
+    name:       "Tychy"
+    tags:       ["rower", "tychy", "tyski rower miejski"]
+  422:
+    filename:   "kolobrzeg"
+    geo.region: "PL"
+    name:       "Kołobrzeg"
+    tags:       ["rower", "kołobrzeg", "kołobrzeski rower miejski"]
+  421:
+    filename:   "kedzierzyn"
+    geo.region: "PL"
+    name:       "Kędzierzyn-Koźle"
+    tags:       ["rower", "kędzierzyn-koźle", "kędzierzyński rower miejski"]
+  192:
+    filename:   "poznan"
+    geo.region: "PL-PO"
+    name:       "Poznań"
+    tags:       ["rower", "poznan", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "prm", "poznanski rower miejski", "wielkopolska"]
+  232:
+    filename:   "krakow"
+    tags:       ["rower", "krakow", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "KMK", "krakowski rower miejski"]
+    geo.region: "PL-KR"
+    name:       "Kraków"
+  245:
+    filename:   "bialystok"
+    name:       "Białystok"
+    tags:       ["rower", "bialystok", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "BIKER Bialystok", "biker"]
+    geo.region: "PL-BK"
+  202:
+    name:       "Opole"
+    filename :  "opole"
+    tags :      ["rower", "opole", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "Opole Bike Poland", "opolski rower miejski"]
+    geo.region : "PL-OP"
+  227:
+     name:      "Sopot"
+     tags :     ["rower", "sopot", "trojmiasto", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "Rower TrĂłjmiejski Poland"]
+     geo.region : "PL-GD"
+     filename:  "sopot"
+  197:
+    name:       "Bemowo"
+    filename :  "bemowo"
+    tags :      ["rower", "bemowo", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "veturilo", "Bemowo Bike Poland"]
+    geo.region : "PL-WA"
+  247:
+    name:       "Konstancin"
+    filename :  "konstancin"
+    tags :      ["krm", "rower", "konstancin", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "Konstancin Jeziorna"]
+    geo.region : "PL-WA"
+  148:
+    name:       "Wrocław"
+    filename :  "wroclaw"
+    tags :      ["rower", "wroclaw", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "wrm", "wroclawski rower miejski"]
+    geo.region : "PL-WR"
+  210:
+    name:       "Warszawa"
+    filename :  "warszawa"
+    tags :      ["rower", "warszawa", "stolica", "rowery", "nextbike", "ilosc", "stacje", "wypozyczalnia", "rower miejski", "transport", "veturilo", "warszawski rower miejski"]
+    geo.region : "PL-WA"
+  251:
+    name:       "Lublin"
+    filename :  "lublin"
+    tags :      ["rower", "rowery", "nextbike", "lublin", "LRM", "lubelski rower", "lubelski rower miejski"]
+    geo.region : "PL-LU"
+  255:
+    name:       "Grodzisk"
+    filename :  "grodzisk"
+    tags :      ["rower", "rowery", "nextbike", "grodzisk", "grodzisk mazowiecki", "GRM", "grodziski rower miejski"]
+    geo.region : "PL-WA"
+  342:
+    name:       "Katowice"
+    filename :  "katowice"
+    tags :      ["rower", "rowery", "nextbike", "katowice", "KRM", "citibike", "katowicki rower miejski", "katowice bike poland"]
+    geo.region : "PL-KA"
+  300:
+    name:       "Juchnowiec Kościelny"
+    filename :  "juchnowiec"
+    tags :      ["rower", "rowery", "nextbike", "bialystok", "KRM", "citibike", "rower gminny", "BIKER", "gmina", "Juchnowiec"]
+    geo.region : "PL-BK"
+  339:
+    name:       "Stalowa Wola"
+    filename :  "stalowa_wola"
+    tags :      ["rower", "rowery", "Stalowa Wola", "wypożyczalnia", "rower miejski"]
+    geo.region : "PL-LU"
+  330:
+    name:       "Łódź"
+    filename :  "lodz"
+    tags :      ["Łódzki Rower Publiczny", "rower", "Łódź", "rower miejski", "ŁRP"]
+    geo.region : "PL-LD"
+  363:
+    name:       "Legnica"
+    filename :  "legnica"
+    tags :      ["Legnicki Rower Miejski", "rower", "Legnica", "rower miejski", "SLRM", "System Legnick Rower Miejski"]
+    geo.region : "PL-WR"
+  346:
+    name:       "Szczecin"
+    filename :  "szczecin"
+    tags :      ["Szczeciński Rower Miejski", "rower", "Szczecin", "rower miejski", "SRM", "bike_s"]
+    geo.region : "PL-SZ"
+  400:
+    name:       "Radom"
+    filename :  "radom"
+    tags :      ["Radomski Rower Miejski", "Radom", "rower", "rower miejski", "RRM"]
+    geo.region : "PL-RA"
+  359:
+    name:       "Michałowice"
+    filename :  "michalowice"
+    tags :      ["Rower Gminny Michałowice", "Michałowice", "rower", "rower miejski", "rower gminny"]
+    geo.region : "PL"
+  393:
+    name:       "Gliwice"
+    filename:  "gliwice"
+    tags:      ["Rower Miejski Gliwice", "Gliwice", "rower", "rower miejski", "GRM"]
+    geo.region: "PL"
+  450:
+    name:       "Częstochowa"
+    filename:   "czestochowa"
+    tags:       ["Częstochowski Rower Miejski", "rower miejski", "rower", "Częstochowa", "nextbike czestochowa"]
+    geo.region: "PL"
+  442:
+    name:       "Pruszków"
+    filename:   "pruszkow"
+    tags:       ["Pruszkowski Rower Miejski", "rower miejski", "rower", "nextbike pruszkow", "Pruszków"]
+    geo.region: "PL"
+  446:
+    name:       "Szamotuły"
+    filename:   "szamotuly"
+    tags:       ["Szamotulski Rower Miejski", "rower miejski", "rower", "nextbike szamotuly", "Szamotuły", "Rower Miejski Szamotuły"]
+    geo.region: "PL"
+  452:
+    name:       "Ostrów Wielkopolski"
+    filename:   "ostrow"
+    tags:       ["Ostrowski Rower Miejski", "rower miejski", "rower", "nextbike ostrów", "Ostrów Wielkopolski", "Rower Miejski w Ostrowie Wielkopolskim"]
+    geo.region: "PL"
+  461:
+    name:       "Piaseczno"
+    filename:   "piaseczno"
+    tags:       ["Piaseczyński Rower Miejski", "rower miejski", "rower", "nextbike Piaseczno", "Piaseczno"]
+    geo.region: "PL"
+  496:
+    name:       "Koszalin"
+    filename:   "koszalin"
+    tags:       ["Koszaliński Rower Miejski", "rower miejski", "rower", "nextbike koszalin", "Koszalin"]
+    geo.region: "PL"
+  497:
+    name:       "Sosnowiec"
+    filename:   "sosnowiec"
+    tags:       ["Sosnowiecki Rower Miejski", "rower miejski", "rower", "nextbike sosnowiec", "Sosnowiec"]
+    geo.region: "PL"
+  498:
+    name:       "Zabrze"
+    filename:   "zabrze"
+    tags:       ["Zabrzanski Rower Miejski", "rower miejski", "rower", "nextbike zabrze", "Zabrze"]
+    geo.region: "PL"
+  509:
+    name:       "Jastrzebie-Zdroj"
+    filename:   "jastrzebie"
+    tags:       ["Jastrzebski Rower Miejski", "rower miejski", "rower", "nextbike jastrzebie-zdroj", "Jastrzebie-Zdroj"]
+    geo.region: "PL"
+  519:
+    name:       "Siemianowice Slaskie"
+    filename:   "siemianowice"
+    tags:       ["Siemianowicki Rower Miejski", "rower miejski", "rower", "nextbike siemianowice slaskie", "Siemianowice Slaskie"]
+    geo.region: "PL"
+  516:
+    name:       "Swietochlowice"
+    filename:   "swietochlowice"
+    tags:       ["Swietochlowicki Rower Miejski", "rower miejski", "rower", "nextbike swietochlowice", "Swietochlowice"]
+    geo.region: "PL"
+  518:
+    name:       "Piotrkow Trybunalski"
+    filename:   "piotrkow"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"
+  521:
+    name:       "Plock"
+    filename:   "plock"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"
+  523:
+    name:       "Ciechanow"
+    filename:   "ciechanow"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"
+  527:
+    name:       "Otwock"
+    filename:   "otwock"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"
+  528:
+    name:       "Tychowo"
+    filename:   "tychowo"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"
+  529:
+    name:       "Zielona Gora"
+    filename:   "zielonagora"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"
+  504:
+    name:       "Pobiedziska"
+    filename:   "pobiedziska"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"
+  545:
+    name:       "Konin"
+    filename:   "konin"
+    tags:       ["rower miejski", "rower"]
+    geo.region: "PL"

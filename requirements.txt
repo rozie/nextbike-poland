@@ -4,7 +4,7 @@ certifi==2022.6.15
 charset-normalizer==2.0.12
 idna==3.3
 Jinja2==3.1.2
-lxml==4.9.0
+lxml==4.9.1
 MarkupSafe==2.1.1
 pyaml==21.10.1
 PyYAML==6.0

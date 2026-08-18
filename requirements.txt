@@ -9,5 +9,5 @@ MarkupSafe==2.1.1
 pyaml==21.10.1
 PyYAML==6.0
 requests==2.33.0
-soupsieve==2.3.2.post1
+soupsieve==2.8.4
 urllib3==2.7.0
